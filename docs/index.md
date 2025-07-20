@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "iceland"
-  text: ""
-  tagline: My great project tagline
+  text: "Bolg"
+  tagline: ""
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: "知识库"
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/Ice1and
 
 features:
   - title: Feature A
