@@ -24,7 +24,7 @@ export default defineConfig({
         collapsible: true,
         collapsed: true,
         items: [
-          { text: '基本术语', link: '/notes/machine-learning/ML' }
+          { text: '基本术语', link: '/notes/machine-learning/基本术语' }
         ]
       }
     ],
