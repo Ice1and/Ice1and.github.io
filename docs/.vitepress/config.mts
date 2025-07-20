@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "iceland",
+  title: "Iceland",
   description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -12,9 +12,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
+        collapsible: true,
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' }
+          { text: '简介', link: '/introduction'}
+        ]
+      },
+      {
+        text: 'ML',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '基本术语', link: '/notes/machine-learning/ML' }
         ]
       }
     ],

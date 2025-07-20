@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "iceland"
-  text: "Bolg"
+  name: "Iceland"
+  text: "Study Bolg"
   tagline: ""
   actions:
     - theme: brand
       text: "知识库"
-      link: /markdown-examples
+      link: introduction
     - theme: alt
       text: GitHub
       link: https://github.com/Ice1and
