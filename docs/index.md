@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "Iceland"
-  text: "Study Bolg"
+  name: "0x3a0"
+  text: "米奇妙妙屋♂"
   tagline: ""
   actions:
     - theme: brand
-      text: "知识库"
+      text: "Library"
       link: introduction
     - theme: alt
       text: GitHub
       link: https://github.com/Ice1and
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

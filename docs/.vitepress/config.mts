@@ -16,7 +16,7 @@ export default defineConfig({
         collapsible: true,
         collapsed: false,
         items: [
-          { text: '简介', link: '/introduction'}
+          { text: 'Resume', link: '/introduction'}
         ]
       },
       {
@@ -24,7 +24,23 @@ export default defineConfig({
         collapsible: true,
         collapsed: true,
         items: [
-          { text: '基本术语', link: '/notes/machine-learning/基本术语' }
+          { text: 'Basic Terms', link: '/notes/Machine-Learning/基本术语' }
+        ]
+      },
+      {
+        text: "Design Patterns",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Introduction", link: "/notes/Design-Patterns/Design Patterns Introduction" },
+          {
+            text: "Creational Pattern",
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: "Singleton Pattern", link: "/notes/Design-Patterns/Creational-Pattern/Singleton Pattern" }
+            ]
+          }
         ]
       }
     ],
