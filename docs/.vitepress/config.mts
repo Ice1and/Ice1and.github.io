@@ -34,8 +34,8 @@ export default defineConfig({
             collapsible: true,
             collapsed: true,
             items: [
-              { text: "Introduction", link: "/notes/LLM/ChatGPT-Prompt-Engineering-for-Developers/introduction" },
-              { text: "Guidelines", link: "/notes/LLM/ChatGPT-Prompt-Engineering-for-Developers/guidelines" },
+              { text: "Introduction", link: "/notes/LLM/ChatGPT-Prompt-Engineering-for-Developers/Introduction" },
+              { text: "Guidelines", link: "/notes/LLM/ChatGPT-Prompt-Engineering-for-Developers/Guidelines" },
             ]
           }
         ]
