@@ -12,9 +12,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Introduction',
-        collapsible: true,
-        collapsed: false,
         items: [
           { text: 'Resume', link: '/introduction'}
         ]
@@ -25,6 +22,22 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Basic Terms', link: '/notes/Machine-Learning/基本术语' }
+        ]
+      },
+      {
+        text: "LLM",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: "Prompt Engineering",
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: "Introduction", link: "/notes/LLM/ChatGPT Prompt Engineering for Developers/introduction" },
+              { text: "Guidelines", link: "/notes/LLM/ChatGPT Prompt Engineering for Developers/guidelines" },
+            ]
+          }
         ]
       },
       {
@@ -47,6 +60,17 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Ice1and/Ice1and.github.io' }
-    ]
+    ],
+
+    // 配置项
+    outline: {
+      level: [2, 3]
+    },
+    search: {
+      provider: "local"
+    },
+    lastUpdated: {
+      text: "最后编辑于"
+    }
   }
 })
